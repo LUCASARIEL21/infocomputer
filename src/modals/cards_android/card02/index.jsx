@@ -8,6 +8,7 @@ export const Card2 = ({ closeModal, modal }) => {
       onClose={() => closeModal(false)}
       aria-labelledby="modal-modal-title"
       aria-describedby="modal-modal-description"
+      maxWidth="lg"
     >
       <S.div>
         <S.buttonS onClick={() => closeModal(false)}>X</S.buttonS>
