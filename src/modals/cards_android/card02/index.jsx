@@ -1,5 +1,5 @@
-import { Dialog } from "@mui/material"
-import * as S from "./style"
+import { Dialog } from "@mui/material";
+import * as S from "./style";
 
 export const Card2 = ({ closeModal, modal }) => {
   return (
@@ -14,33 +14,50 @@ export const Card2 = ({ closeModal, modal }) => {
         <S.buttonS onClick={() => closeModal(false)}>X</S.buttonS>
         <S.container>
           CELULARES QUE POSSUEM O SISTEMA OPERACIONAL ANDROID
+          <img src="https://avatars.mds.yandex.net/i?id=4e134984d293850eb4216cc4e2bb5680a8039db5-6960551-images-thumbs&n=13&exp=1" />
           <br />
-          Existem muitos celulares que possuem o sistema operacional Android, alguns dos mais populares incluem:
-          <br/>
-          <img src="https://images.kaina24.lt/43/39/samsung-galaxy-s21-fe.jpg"/>
-          Samsung Galaxy S21
-          <img src="https://pbs.twimg.com/media/E73in-zVIAMdPQO.jpg"/>
-          Google Pixel 6
-          <img src="https://cdn.siasat.com/wp-content/uploads/2021/03/OnePlus-9.jpg"/>
-          OnePlus 9
-          <img src="https://www.teknogaste.com/wp-content/uploads/xiaomi-mi-11-modelinden-onemli-basari.jpg"/>
-          Xiaomi Mi 11
-          <img src="https://st1.latestly.com/wp-content/uploads/2021/11/resize-9-20.jpg"/>
-          Motorola Moto G Power (2022)
-          <img src="https://technoingg.com/wp-content/uploads/2021/04/xperia-1-iii.jpg"/>
-          Sony Xperia 5 III
-          <img src="https://welectronics.com/images/stories/virtuemart/product/LGVelvet5gpink58.jpg"/>
-          LG Velvet
-          <img src="https://persiadigest.com/wp-content/uploads/2021/04/1617999284_SFR-Promotion-Refunds-of-up-to-100-E-for-OPPO.jpg"/>
-          Oppo Find X3 Pro
-          <img src="https://cdn.dxomark.com/wp-content/uploads/medias/post-111577/Realme-GT-Neo-3_Yoast-image-packshot-review-Recovered.jpg"/>
-          Realme GT
-          <img src="https://teknodaim.com/wp-content/uploads/2021/08/ROG-Phone-5s.jpg"/>
-          Asus ROG Phone 5
-          <br/>
-          Esses são apenas alguns exemplos, existem muitos outros modelos de celulares que utilizam o sistema operacional Android. Além disso, muitas marcas menores também fabricam dispositivos que rodam o Android.
+          Existem muitos smartphones no mercado que utilizam o sistema
+          operacional Android, que é desenvolvido pelo Google. Abaixo, vou citar
+          alguns dos celulares mais populares que rodam o sistema operacional
+          Android e dar um breve resumo sobre cada um deles:
+          <br />
+          1. Samsung Galaxy S21: O Samsung Galaxy S21 é um dos smartphones mais
+          recentes da Samsung e possui uma tela AMOLED de 6,2 polegadas, um
+          processador Exynos 2100 e 8 GB de RAM. Ele também possui uma câmera
+          traseira de 12 MP e uma bateria de 4.000 mAh.
+          <br />
+          2. Xiaomi Mi 11: O Xiaomi Mi 11 é um smartphone Android recente que
+          possui uma tela AMOLED de 6,81 polegadas, um processador Qualcomm
+          Snapdragon 888 e 8 GB de RAM. Ele também possui uma câmera traseira
+          tripla de 108 MP e uma bateria de 4.600 mAh.
+          <br />
+          3. Google Pixel 5: O Google Pixel 5 é um smartphone Android
+          desenvolvido pela própria Google. Ele possui uma tela OLED de 6
+          polegadas, um processador Qualcomm Snapdragon 765G e 8 GB de RAM. O
+          Pixel 5 também possui uma câmera traseira dupla de 12,2 MP e uma
+          bateria de 4.080 mAh.
+          <br />
+          4. Samsung Galaxy Note 20 Ultra: O Samsung Galaxy Note 20 Ultra é um
+          smartphone Android com uma tela AMOLED de 6,9 polegadas, um
+          processador Exynos 990 e 12 GB de RAM. Ele possui uma câmera traseira
+          tripla de 108 MP e uma bateria de 4.500 mAh.
+          <br />
+          5. OnePlus 9 Pro: O OnePlus 9 Pro é um smartphone Android com uma tela
+          AMOLED de 6,7 polegadas, um processador Qualcomm Snapdragon 888 e 12
+          GB de RAM. Ele possui uma câmera traseira tripla de 48 MP e uma
+          bateria de 4.500 mAh.
+          <br />
+          6. Motorola Moto G Power (2021): O Motorola Moto G Power (2021) é um
+          smartphone Android com uma tela LCD de 6,6 polegadas, um processador
+          Qualcomm Snapdragon 662 e 4 GB de RAM. Ele possui uma câmera traseira
+          tripla de 48 MP e uma bateria de 5.000 mAh.
+          <br />
+          Esses são apenas alguns exemplos de smartphones Android populares.
+          Cada um deles tem suas próprias especificações, recursos e vantagens,
+          e a escolha do melhor celular dependerá das necessidades e
+          preferências individuais do usuário.
         </S.container>
-      </S.div >
+      </S.div>
     </Dialog>
-  )
-}
+  );
+};
