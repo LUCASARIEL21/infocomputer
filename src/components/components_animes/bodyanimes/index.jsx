@@ -16,7 +16,7 @@ export const Bodyanimes = () => {
                 alignItems: 'center',
                 justifyContent: "center"
             }}>
-                <Card.Img variant="top" src=""
+                <Card.Img variant="top" src="https://www.thunderwave.com.br/wp-content/uploads/2022/07/Crunchyroll.png"
                     style={{ maxHeight: "1000px", maxWidth: "1000px" }} />
                 <Card.Body>
                     <Card.Text>
